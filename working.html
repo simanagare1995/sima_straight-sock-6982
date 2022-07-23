@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #create{
+            margin: auto;
+ border: 1px solid gray;
+ width: 90%;
+ padding: 40px;
+ border-radius: 7px;
+ margin-bottom: 40px;
+        }
+    #work{
+        width:40%;
+   margin:auto;
+   display: flex;
+ justify-content: space-around;
+align-items: flex-end;
+margin-bottom: -10px;
+
+    }
+    a{ 
+        text-decoration: none;
+        font-size: 10px;
+        display: flex;  
+    }
+    input{
+      margin-top: 20px;
+        padding: 15px 30px 15px 20px; 
+        margin-left: 10px;   
+        border:1px solid grey;
+        border-radius: 7px;
+    }
+    input:first-child{
+        width:40%;
+    }
+    input:last-child{
+      width:40%;
+  }
+    #button{
+        width:150px;
+        border:0px;
+        border-radius: 5px;
+        padding:15px 30px 15px 30px;
+        background-color: rgb(6, 6, 216);
+     margin-left: 45% ;
+     color:white;
+     font-size: 15px;
+    }
+   #img{
+        width:98%;
+        margin: auto;
+        margin-bottom:70px;
+    }
+    #img>img{
+        width:100%;
+        border-radius:7px ;
+    }
+    #button1{
+        padding: 13px;
+        color: white;
+        background-color:rgb(6, 6, 216) ;
+        border: 0px;
+        border-radius: 7px;
+    }
+    #add{
+        width:30%;
+        position:absolute;
+top:500px;
+left:50px;
+color:white;
+        /* z-index: 2; */
+    }
+    .img1{
+        width:98%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .img1>img{
+        width:100%;
+        height: 300px;
+        border-radius: 7px;
+
+    }
+    .posi{
+        width:30%;
+        position:absolute;
+        top:1100px;
+       left:50px;
+         color:white;
+    }
+    select {
+        padding:5px;
+        padding: 15px 30px 15px 20px; 
+        margin-left: 10px;   
+        border:1px solid grey;
+        border-radius: 7px;
+    }
+    #button3{
+        border: 0px;
+        padding: 15px 30px 15px 20px;  
+       background-color: rgb(6, 6, 216) ;
+        border-radius: 7px;
+        color:white;
+    }
+    #tradi{
+   margin:auto;
+   width:98%;
+display: grid;
+grid-template-columns:repeat(3,auto);
+gap:20px;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    } 
+    #tradi>div{
+        margin:auto;
+    }
+    #tradi>div:first-child>img{
+        width:120%;
+        height:300px
+    } 
+    #tradi>div:nth-child(2){
+        width:120%;
+        margin-left:11%;}
+        #tradi>div:nth-child(2)>h2{
+        margin-bottom: -10px;
+
+        }
+        #tradi>div:nth-child(2)>button+p{
+            font-size: 13px;
+        }
+        #tradi>div:nth-child(3){
+        margin-left:50%;
+        text-align: center;
+        font-weight: bold;
+    }
+    #tradi>div:last-child>img{
+        width:80%;
+margin-bottom: -20px;
+    }
+</style>
+</head>
+<body>
+    <div id ="create">
+    <div id="work">
+        <a href="">
+            <h2>Stays</h2>
+        </a>
+        <a href="">
+            <h2>Flights</h2>
+        </a>
+        <a href="">
+            <h2>Cars</h2>
+        </a>
+        <a href="">
+            <h2>Packages</h2>
+      </a>
+        <a href="">
+            <h2>Things to do</h2>
+        </a>
+
+    </div>
+    <hr>
+    <div>
+   <input type="search" placeholder="Pick-up">
+   <!-- <input type="search" placeholder="Same as Pick-up"> -->
+   <input type="date" placeholder="Pick up date">
+   <input type="date" placeholder="Pick up date">
+   <input type="contact" placeholder="Travellers ">
+<br>
+
+   <input type="checkbox" placeholder="Add a flight ">
+   <label for="Add">Add to Car</label>
+   <input type="checkbox" placeholder="Add a flight " >
+   <label for="Add">Add to Car</label><br>
+   <button id="button">Search</button>
+</div>
+</div>
+<div id="img">
+   <img src="https://a.travel-assets.com/travel-assets-manager/cmct-5255/POSa-HP-Hero-D-928x398.jpg"alt="error">
+   </div>
+   <div id="add">
+<h1>Save instantly with Expedia
+Rewards</h1>
+<h4>You can enjoy access to perks like Member Prices,saving you 10% or more on select hotels.Terms may apply.
+
+</h4>
+<button id="button1">See Member Prices</button>
+</div>
+<div class="img1">
+    <img src="https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg"alt="error">
+</div>
+<div class="posi">
+    <h3>
+        plan ahead & save
+    </h3>
+    <h4>Book 60 days in days in advance for 20% off select stays.</h4>
+</div>
+<div id="tradi">
+
+    <div>
+        <img src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_ROME_iStock_72dpi.jpg"alt="error">
+    </div>
+    <div>
+        <h1>Our app takes you further</h1>
+        <p>
+            When you book on the app you can save up to 20% on select hotels while earning double the points with every booking. With these app deals you'll save even more on trips, and that means you can take more trips, and manage it all on the go.
+        </p>
+        <h2>Text yourself a download link for easy access</h2>
+        <select>
+            <option>India +91</option>
+            <option></option>
+        </select> 
+        <input type="number" placeholder="phone number" value="number">
+<button id="button3">Get the apps </button>
+<p>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+    </div>
+    <div>
+        <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/27_QR_FOOTER_HP.png"alt="">
+<p>Scan the QR code</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        #navbar{
+            border:1px solid black;
+            width:100%;
+            margin:auto;
+            display:flex;
+            height: 70px;
+        }
+        #navbar>div{
+            margin:auto;
+            display:flex;
+        }
+    #navbar>div:first-child{
+        width:20%;
+        display: flex;
+        justify-content: space-around; 
+        justify-items: flex-start;
+        margin-left: 30px;
+
+    }
+    #navbar>div:last-child{
+        width:25%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+         gap:8px;
+         margin-right: 50px;
+    }
+    #img1{
+        display: flex;
+    }
+ #img1>img{
+    width:30%;
+ }
+
+ a{
+    text-decoration: none;
+    color:black;
+ }
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>
+        <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2"alt="error">
+     
+        <select>
+            <label>More Travel </label>
+            <option>
+                <a href="">Stays</a>
+            </option>
+            <option>
+                <a href="">Flight</a>
+            </option>
+            <option>
+                <a href="">Cars</a>
+            </option>
+            <option>
+                <a href="">Package</a>
+            </option>
+            <option>
+                <a href="">Holiday</a>
+            </option>
+        </select>
+        <!-- <div class="More Travel">
+            <button class="morebtn">More Travel</button>
+            <div class="more-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> -->
+    </div>
+    <div>
+        <a href="">
+        <div id="img1">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-rPrBc_bNmyx8Z7S73kaKj_NwhFAsrOxVo876TaQHBk9C3Mjx"alt="">
+        <p>English</p>
+    </div></a>
+    <a href=""> <p>Support</p></a>
+        <a href=""><p>Trip</p></a>
+            <a href=""><p>Sign in</p> </a> 
+    </div>
+
+    </div>
+</body>
+</html>
